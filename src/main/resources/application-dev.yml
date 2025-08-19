@@ -1,0 +1,14 @@
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://ayulztron12:yccwG4y6UmPJ88Lf@cluster0.fzxpfoj.mongodb.net/journaldb?retryWrites=true&w=majority&appName=Cluster0
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+  Weather:
+    api:
+      key:
